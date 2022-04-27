@@ -4,7 +4,7 @@
 # theme = "m10c"
 
 
-baseURL = "https://example.com"
+baseURL = "https://itsrobel.github.io"
 title = "Robel Schwarz"
 theme = "m10c"
 paginate = 8

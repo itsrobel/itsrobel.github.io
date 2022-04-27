@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Robel Schwarz</title>
+    <link>https://itsrobel.github.io/tags/python/</link>
+    <description>Recent content in python on Robel Schwarz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://itsrobel.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create A Useless AI</title>
+      <link>https://itsrobel.github.io/posts/hollow/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsrobel.github.io/posts/hollow/</guid>
+      <description>Introduction </description>
+    </item>
+    
+  </channel>
+</rss>
