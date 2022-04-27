@@ -1,0 +1,57 @@
+# baseURL = 'http://example.org/'
+# languageCode = 'en-us'
+# title = 'My New Hugo Site'
+# theme = "m10c"
+
+
+baseURL = "https://example.com"
+title = "Robel Schwarz"
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "Robel Schwarz"
+  description = "A programmer, sociopath, and aspiring calisthenics athlete."
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/itsrobel"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/gohugoio"
+
+  # Red theme
+  [params.style]
+    darkestColor = "#282a36"
+    darkColor = "#44475a"
+    lightColor = "#d6d6d6"
+    lightestColor = "#bd93f9"
+    primaryColor = "#50fa7b"
+    Foreground = "#f8f8f2"
+    softBlue =	"#6272a4"	
+    Cyan =	"#8be9fd"	
+    Green =	"#50fa7b"
+    Orange =	"#ffb86c"	
+    Pink =	"#ff79c6"
+    Purple =	"#bd93f9"	
+    Red	 = "#ff5555"	
+    Yellow =	"#f1fa8c"
