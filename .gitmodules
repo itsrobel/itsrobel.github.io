@@ -1,0 +1,3 @@
+[submodule "hugo-site-content"] 
+  path = ./hugo-site-content
+  url = https://github.com/itsrobel/hugo-site-content
