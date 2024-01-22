@@ -1,10 +1,10 @@
 title = "The Robellion"
 
 [params.author]
-name = "The Robellion"
+name = "Robel A. Istefanos"
 image = "img/itsrobel.jpg"
 headline = "A generally awesome human, who occasionally writes code"
-bio = "A little bit about me"
+bio = "I all of my subjective opinions are objectively correct, subjectively"
 # links = [
 #   { twitter = "https://twitter.com/username" }
 # ]
