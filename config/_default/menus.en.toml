@@ -14,6 +14,11 @@
   weight = 20
 
 [[main]]
+  name = "Resume"
+  pageRef = "resume"
+  weight = 20
+
+[[main]]
   name = "GitHub"
   url = "https://github.com/amarshavir"
   weight = 30
