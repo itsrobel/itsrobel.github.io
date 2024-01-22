@@ -1,1 +1,56 @@
-colorScheme = "cherry"
+colorScheme = "congo"
+
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = false
+enableRobotsTXT = true
+
+enableSearch = true
+enableCodeCopy = true
+enableImageLazyLoading = true
+enableImageWebp = true
+enableQuicklink = true
+
+summaryLength = "0"
+
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[header]
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  # logo = "img/logo.jpg"
+  # logoDark = "img/dark-logo.jpg"
+  # showTitle = true
+
+[homepage]
+
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = true
+  recentLimit = 2
+# [[homepage]]
+#     # layout = "p"
+#     showRecent = true
+#
+#
+[footer]
+  showAppearanceSwitcher = true
+
+
+[article]
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = true
+  showTaxonomies = false
+  groupByYear = false
+  paginationWidth = 4

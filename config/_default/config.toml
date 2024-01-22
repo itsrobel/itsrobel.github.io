@@ -1,2 +1,9 @@
 baseURL = "https://robellion.xyz/"
 languageCode = "en"
+homepage.layout = "profile"
+
+
+summaryLength = 0
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

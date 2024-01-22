@@ -1,10 +1,10 @@
-title = "My awesome website"
+title = "The Robellion"
 
 [params.author]
 name = "The Robellion"
 image = "img/author.jpg"
-headline = "A generally awesome human"
+headline = "A generally awesome human, who occasionally writes code"
 bio = "A little bit about me"
-links = [
-  { twitter = "https://twitter.com/username" }
-]
+# links = [
+#   { twitter = "https://twitter.com/username" }
+# ]

@@ -1,11 +1,16 @@
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
+# [[main]]
+#   name = "Blog"
+#   pageRef = "posts"
+#   weight = 10
 
 [[main]]
   name = "Topics"
   pageRef = "topics"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
   weight = 20
 
 [[main]]
@@ -17,19 +22,39 @@
     showName = false
     target = "_blank"
 
+
+[[main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/robel-schwarz-015010275/"
+  weight = 30
+  [main.params]
+    icon = "linkedin"
+    showName = false
+    target = "_blank"
+
+[[main]]
+  name = "instagram"
+  url = "https://www.instagram.com/the_robellion/"
+  weight = 30
+  [main.params]
+    icon = "instagram"
+    showName = false
+    target = "_blank"
+
+
 [[main]]
   identifier = "search"
   weight = 99
   [main.params]
     action = "search"
-    icon = "search"
+    # icon = "search"
 
-[[main]]
-  identifier = "appearance"
-  weight = 99
-  [main.params]
-    action = "appearance"
-    icon = "appearance"
+# [[main]]
+#   identifier = "appearance"
+#   weight = 99
+#   [main.params]
+#     action = "appearance"
+#     icon = "appearance"
 
 [[footer]]
   name = "Privacy"
