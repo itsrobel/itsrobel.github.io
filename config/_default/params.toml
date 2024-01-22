@@ -1,18 +1,13 @@
 colorScheme = "congo"
 
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = false
-enableRobotsTXT = true
+autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
 enableImageWebp = true
 enableQuicklink = true
-
-summaryLength = "0"
-
-
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

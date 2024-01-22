@@ -1,8 +1,9 @@
-baseURL = "https://robellion.xyz/"
+baseURL = "https://itsrobel.tech/"
 languageCode = "en"
 homepage.layout = "profile"
 
-
+enableRobotsTXT = true
+paginate = 10
 summaryLength = 0
 
 [outputs]
