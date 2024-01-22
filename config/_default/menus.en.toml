@@ -1,0 +1,36 @@
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Topics"
+  pageRef = "topics"
+  weight = 20
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/amarshavir"
+  weight = 30
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+    icon = "search"
+
+[[main]]
+  identifier = "appearance"
+  weight = 99
+  [main.params]
+    action = "appearance"
+    icon = "appearance"
+
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
