@@ -3,25 +3,27 @@
 #   pageRef = "posts"
 #   weight = 10
 
-[[main]]
-  name = "Topics"
-  pageRef = "topics"
-  weight = 20
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Resume"
-  pageRef = "resume"
+  # pageRef = "resume"
+  url = "/resume/"
   weight = 20
+
+[[main]]
+  name = "Topics"
+  pageRef = "topics"
+  weight = 40
 
 [[main]]
   name = "GitHub"
   url = "https://github.com/amarshavir"
-  weight = 30
+  weight = 50
   [main.params]
     icon = "github"
     showName = false
@@ -31,7 +33,7 @@
 [[main]]
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/robel-schwarz-015010275/"
-  weight = 30
+  weight = 50
   [main.params]
     icon = "linkedin"
     showName = false
@@ -40,7 +42,7 @@
 [[main]]
   name = "instagram"
   url = "https://www.instagram.com/the_robellion/"
-  weight = 30
+  weight = 50
   [main.params]
     icon = "instagram"
     showName = false
