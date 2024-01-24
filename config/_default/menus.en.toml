@@ -9,16 +9,24 @@
   pageRef = "about"
   weight = 10
 
+
 [[main]]
-  name = "Resume"
-  # pageRef = "resume"
-  url = "/resume/"
+  name = "Articles"
+  pageRef = "articles"
   weight = 20
+
 
 [[main]]
   name = "Topics"
   pageRef = "topics"
+  weight = 30
+
+[[main]]
+  name = "Resume"
+  pageRef = "resume"
+  # url = "/resume/"
   weight = 40
+
 
 [[main]]
   name = "GitHub"
