@@ -19,17 +19,17 @@ enableQuicklink = true
   # showTitle = true
 
 [homepage]
-
-  layout = "profile" # valid options: page, profile, custom
+  layout = "custom" # valid options: page, profile, custom
   showRecent = true
-  recentLimit = 2
+  recentLimit = 4
 # [[homepage]]
 #     # layout = "p"
 #     showRecent = true
 #
 #
 [footer]
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
+    showThemeAttribution = false
 
 
 [article]

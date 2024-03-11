@@ -71,6 +71,6 @@
 #     action = "appearance"
 #     icon = "appearance"
 
-[[footer]]
-  name = "Privacy"
-  pageRef = "privacy"
+# [[footer]]
+#   name = "Privacy"
+#   pageRef = "privacy"

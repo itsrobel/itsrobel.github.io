@@ -1,100 +1,81 @@
-h1 {
-  color: #458588;
-}
-
-:is(.dark .dark\:hover\:text-primary-400:hover) {
-  color: #458588;
-}
-
-/**/
-/* html { */
-/*   font-size: 14pt; */
-/*   background-color: #282828; */
-/* } */
-/* body { */
-/*   background-color: #282828 !important; */
-/* } */
-/**/
-/* h2 { */
-/*   color: #fb4 !important; */
-/* } */
-.prose:where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  color: #458588;
-}
-
-.prose:where(a):not(
-    :where([class~="not-prose"], [class~="not-prose"] *)
-  ):hover {
-  background-color: none;
-}
-
 :is(.toc a):hover {
-  color: #fb4934;
-  background-color: inherit;
-  text-decoration-color: #fb4934;
+  color: #b8bb26; /* because the default is --color-nutural for some reason */
+  background-color: initial;
+}
+.toc a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .toc {
   overflow-y: visible;
 }
+.w-36 {
+  width: 20rem !important;
+  border-radius: 0.375rem !important;
+}
 
-.toc ul {
-  /* list-style-type: lower-alpha; */
-  list-style-type: none;
+ul {
+  list-style-type: upper-roman;
 }
 .toc li {
   text-align: end;
   font-size: 16px;
 }
 
-.text-sm {
-  color: #458588 !important;
+.dark a:hover {
+  color: #fb4934;
 }
-
-:is(.dark .dark\:border-neutral-600) {
-  border: none;
+.icon {
+  color: #458588;
 }
-
-html {
-  background-color: #fbf1c7;
-  color: #3c3836;
+.a:hover {
+  background-color: initial;
 }
-html.dark {
-  background-color: #282828;
+.prose
+  :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)):hover {
+  background-color: initial;
+  color: #458588;
+  text-decoration: none;
 }
-
-:is(.dark .dark\:bg-neutral-800) {
-  background-color: inherit;
+.prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  text-decoration: none;
 }
-.bg-neutral-100 {
-  background-color: #f2e5bc;
-}
-
-body {
-  background-color: inherit;
-  max-width: 90rem !important;
-}
-
-.bg-neutral {
-  background-color: inherit;
-}
-.bg-neutral\/50 {
-  background-color: inherit;
-}
-/* body { */
-/*   background-color: #282828; */
-/* } */
-
-/* the author section */
-.leading-3 {
-  color: #fb4934 !important;
-  font-size: 12px;
-  text-transform: none;
-}
-
 .max-w-prose {
   max-width: 90ch;
 }
 .-ms-5 {
   border: none;
+}
+
+@media (max-width: 1100px) {
+  .recent {
+    max-width: 100%;
+    height: 45vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+  }
+  .columns-2 {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1100px) {
+  .columns-2 {
+    column-count: 2;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .w-36 {
+    width: 25rem !important;
+  }
+  .recent {
+    max-width: 50%;
+  }
 }

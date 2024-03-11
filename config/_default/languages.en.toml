@@ -3,8 +3,10 @@ title = "Robellion"
 [params.author] 
 name = "Robel A. Istefanos"
 image = "img/itsrobel.jpg"
-headline = "If I have seen further, it is by standing on the shoulders of gaints"
+# headline = "Programmer  -  Developer -  Designer"
 bio = "All of my subjective opinions are objectively correct, subjectively"
-# links = [
-#   { twitter = "https://twitter.com/username" }
-# ]
+links = [
+  { linkedin = "https://www.linkedin.com/in/robel-schwarz-015010275/" },
+  { instagram = "https://www.instagram.com/the_robellion/" },
+    {github = "https://github.com/itsrobel"},
+]
