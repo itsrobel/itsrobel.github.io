@@ -120,10 +120,16 @@ footer {
     display: none;
   }
   .recent {
-    max-height: 60vh !important;
+    max-height: 70vh !important;
   }
   h1 {
     font-size: 2rem !important;
+  }
+  header h1 {
+    display: none;
+  }
+  .recent h2 {
+    display: none;
   }
 }
 
