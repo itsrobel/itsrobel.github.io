@@ -1,6 +1,6 @@
 {
-  "name": "Congo",
-  "short_name": "Congo",
+  "name": "Robellion",
+"short_name": "Robellion",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -15,7 +15,8 @@
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#7c3aed",
+  "theme_color": "#EBDBB2",
+  "background_color": "#A89984",
   "display": "standalone"
 }
+
