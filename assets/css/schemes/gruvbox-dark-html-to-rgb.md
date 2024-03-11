@@ -36,10 +36,10 @@
 
 | color  | html    | rgb     |
 | ------ | ------- | ------- |
-| bg     | #fbf1c7 | Item3.1 |
-| fg     | #3c3836 | Item3.1 |
-| red    | #cc241d | Item3.2 |
-| green  | #98971a | Item3.3 |
+| bg     | #fbf1c7 | 251, 241, 199 |
+| fg     | #3c3836 | 60, 56, 54 |
+| red    | #cc241d | 204, 36, 29 |
+| green  | #98971a | 152, 151, 26 |
 | yellow | #d79921 | Item3.4 |
 | blue   | #458588 | Item3.4 |
 | purple | #b16286 | Item3.4 |
