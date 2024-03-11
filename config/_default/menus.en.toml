@@ -16,10 +16,10 @@
   weight = 20
 
 
-[[main]]
-  name = "Topics"
-  pageRef = "topics"
-  weight = 30
+# [[main]]
+#   name = "Topics"
+#   pageRef = "topics"
+#   weight = 30
 
 [[main]]
   name = "Resume"
@@ -28,33 +28,33 @@
   weight = 40
 
 
-[[main]]
-  name = "GitHub"
-  url = "https://github.com/amarshavir"
-  weight = 50
-  [main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
+# [[main]]
+#   name = "GitHub"
+#   url = "https://github.com/itsrobel"
+#   weight = 50
+#   [main.params]
+#     icon = "github"
+#     showName = false
+#     target = "_blank"
+#
 
-
-[[main]]
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/robel-schwarz-015010275/"
-  weight = 50
-  [main.params]
-    icon = "linkedin"
-    showName = false
-    target = "_blank"
-
-[[main]]
-  name = "instagram"
-  url = "https://www.instagram.com/the_robellion/"
-  weight = 50
-  [main.params]
-    icon = "instagram"
-    showName = false
-    target = "_blank"
+# [[main]]
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/in/robel-schwarz-015010275/"
+#   weight = 50
+#   [main.params]
+#     icon = "linkedin"
+#     showName = false
+#     target = "_blank"
+#
+# [[main]]
+#   name = "instagram"
+#   url = "https://www.instagram.com/the_robellion/"
+#   weight = 50
+#   [main.params]
+#     icon = "instagram"
+#     showName = false
+#     target = "_blank"
 
 
 [[main]]

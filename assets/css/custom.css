@@ -1,0 +1,100 @@
+h1 {
+  color: #458588;
+}
+
+:is(.dark .dark\:hover\:text-primary-400:hover) {
+  color: #458588;
+}
+
+/**/
+/* html { */
+/*   font-size: 14pt; */
+/*   background-color: #282828; */
+/* } */
+/* body { */
+/*   background-color: #282828 !important; */
+/* } */
+/**/
+/* h2 { */
+/*   color: #fb4 !important; */
+/* } */
+.prose:where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #458588;
+}
+
+.prose:where(a):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  ):hover {
+  background-color: none;
+}
+
+:is(.toc a):hover {
+  color: #fb4934;
+  background-color: inherit;
+  text-decoration-color: #fb4934;
+}
+
+.toc {
+  overflow-y: visible;
+}
+
+.toc ul {
+  /* list-style-type: lower-alpha; */
+  list-style-type: none;
+}
+.toc li {
+  text-align: end;
+  font-size: 16px;
+}
+
+.text-sm {
+  color: #458588 !important;
+}
+
+:is(.dark .dark\:border-neutral-600) {
+  border: none;
+}
+
+html {
+  background-color: #fbf1c7;
+  color: #3c3836;
+}
+html.dark {
+  background-color: #282828;
+}
+
+:is(.dark .dark\:bg-neutral-800) {
+  background-color: inherit;
+}
+.bg-neutral-100 {
+  background-color: #f2e5bc;
+}
+
+body {
+  background-color: inherit;
+  max-width: 90rem !important;
+}
+
+.bg-neutral {
+  background-color: inherit;
+}
+.bg-neutral\/50 {
+  background-color: inherit;
+}
+/* body { */
+/*   background-color: #282828; */
+/* } */
+
+/* the author section */
+.leading-3 {
+  color: #fb4934 !important;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.max-w-prose {
+  max-width: 90ch;
+}
+.-ms-5 {
+  border: none;
+}
