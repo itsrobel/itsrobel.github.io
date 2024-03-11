@@ -1,7 +1,7 @@
 colorScheme = "gruvbox-dark"
 
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
@@ -28,7 +28,7 @@ enableQuicklink = true
 #
 #
 [footer]
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
     showThemeAttribution = false
 
 
